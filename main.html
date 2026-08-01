@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>MyBank</h2>
+            <nav class="nav">
+                <a href="#">Dashboard</a>
+                <a href="#">Accounts</a>
+                <a href="#">Payments</a>
+                <a href="#">Settings</a>
+            </nav>
+            <button class="logout">Logout</button>
+        </aside>
+        <main class="main">
+            <section class="account-summary">
+                <div class="account-info">
+                    <span>Current Balance</span>
+                    <div class="account-balance">$12,450.00</div>
+                    <span>Account No: 1234 5678 9012</span>
+                </div>
+                <div class="quick-actions">
+                    <button>Send Money</button>
+                    <button>Deposit</button>
+                    <button>Withdraw</button>
+                </div>
+            </section>
+            <section class="transactions">
+                <h3>Recent Transactions</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-06-01</td>
+                            <td>Starbucks</td>
+                            <td>Debit</td>
+                            <td>-$5.50</td>
+                        </tr>
+                        <tr>
+                            <td>2024-05-30</td>
+                            <td>Salary</td>
+                            <td>Credit</td>
+                            <td>+$2,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>2024-05-28</td>
+                            <td>Amazon</td>
+                            <td>Debit</td>
+                            <td>-$120.00</td>
+                        </tr>
+                        <tr>
+                            <td>2024-05-25</td>
+                            <td>Electricity Bill</td>
+                            <td>Debit</td>
+                            <td>-$60.00</td>
+                        </tr>
+                        <tr>
+                            <td>2024-05-22</td>
+                            <td>Transfer from John</td>
+                            <td>Credit</td>
+                            <td>+$150.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
